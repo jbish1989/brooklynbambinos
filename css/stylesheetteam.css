@@ -1,0 +1,181 @@
+html, body{ 
+    height: 100%;
+    margin:0;
+    background-color: #82233c;
+}
+header{
+    border:solid;
+    padding:0;
+    z-index:100;
+    
+}
+#bimg{
+    position:relative;
+    height:100%;
+    width:100%;
+}
+#subheader{
+    height:15%;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:7vh;
+    color:white;
+    
+}
+nav{
+    border:solid;
+    padding:0;
+    height:23vh;
+}
+h1{
+    font-size:24px;
+    text-align:center;
+    font-family: 'Corben', cursive;
+}
+#topmenu{
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    flex-wrap:wrap;
+    z-index:100;
+    position:absolute;
+    top:0;
+    width:100%;
+    
+}
+h2{
+    text-align: center;
+    background-color: #82233c;
+    font-family: 'Corben', cursive;
+
+}
+li{
+    height:50%;
+    color: #ffffff; 
+    background-color: #000000;
+    border:solid #ffffff;
+    border-width: thin;
+    width:50%;
+    box-sizing:border-box;
+    text-align: center;
+    
+}
+main{
+    padding-top: 2%;
+    display:flex;
+    flex-direction:column;
+    background-color: #82233c;
+}
+.playa{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.pimg{
+    width:22vh;
+    height:24vh;
+    align-items:center;
+}
+ul.stats{
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+    width:80%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:no-wrap;
+    align-items:top;
+    font-size: 18px;
+    color: #ffffff;
+}
+.des{
+    width:100%;
+    background-color: #77777;
+}
+.des1{
+    display:none;
+}
+footer{
+    height:5%;
+    padding:5px;
+    text-align: center;
+    background-color:  #77777;
+    
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:400px)
+{
+    .pimg{
+        width:30%;
+    
+    }
+    main{
+        margin:2%;
+    }
+    .playa{
+        width:100%;
+        flex-direction:row;
+        border:solid #000000;
+        
+        
+    }
+    ul.stats{
+        width:100%;
+        flex-direction:column;
+        justify-content:space-around;
+        flex-wrap:no-wrap;
+    }
+    .des{
+        width:100%;
+    }
+    .des1{
+        display:block;
+        width:100%;
+    }
+}
+@media only screen and (min-width:768px)
+{    
+    .pimg{
+        width:20vw;
+        height:38vh;
+    }
+    ul.stats{
+        
+        width:82%;
+        }
+    main{
+        flex-direction:row;
+        height:70%;
+        margin:0;
+    }
+    #bimg{
+        height:200px;
+    }
+    #subheader{
+        top:4vh;
+
+    }
+    .playa{
+        flex-direction:column;
+    }
+    }
+
+#p2{
+}
+#p3{
+}
+#p4{
+}
+footer{
+}

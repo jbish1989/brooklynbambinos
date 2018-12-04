@@ -1,0 +1,63 @@
+html, body{ 
+    height: 100%;
+    margin:0;
+    background-color: red;
+}
+header{
+    border:solid;
+    padding:0;
+    z-index:100;
+    
+}
+#bimg{
+    position:relative;
+    height:140px;
+    width:100%;
+}
+#subheader{
+    height:15%;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:6vh;
+    color:white;
+    
+}
+nav{
+    border:solid;
+    padding:0;
+}
+h1{
+    font-size:24px;
+    text-align:center;
+}
+#topmenu{
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    flex-wrap:wrap;
+    z-index:100;
+    position:absolute;
+    top:0;
+    width:100%;
+    
+}
+h2{
+    text-align: center;
+    background-color: red;
+}
+li{
+    height:50%;
+    color:white; 
+    background-color: black;
+    border:solid white;
+    border-width: thin;
+    width:50%;
+    box-sizing:border-box;
+    text-align: center;
+    
+}
